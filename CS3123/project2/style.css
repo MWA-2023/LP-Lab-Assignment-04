@@ -1,0 +1,369 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /*for color make global variable*/
+    
+     :root {
+        --primary-text-color: #C04A82;
+        --secondary-text-color: #577592;
+        --accent-color: #2294ed;
+        --accent-color-dark: #1d69a3;
+        --padding-inline-section: 20px;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: var(--primary-text-color);
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.25rem;
+        color: var(--secondary-text-color);
+        line-height: 1.8rem;
+    }
+    
+    a {
+        text-decoration: none;
+        display: inline-flex;
+    }
+    
+    ul {
+        list-style: none;
+        color: rgb(227, 19, 126);
+    }
+    /*utility class*/
+    
+    .small-bold-text {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .container {
+        /*for giving left and right margin we can use margin-inline*/
+        max-width: 1180px;
+        margin-inline: auto;
+        padding-inline: var(--padding-inline-section);
+    }
+    
+    .flex {
+        display: flex;
+        align-items: center;
+    }
+    
+    .hover-links {
+        color: var(--primary-text-color);
+        transition: 0.2s ease-out;
+    }
+    
+    .hover-links:hover {
+        color: rgb(59, 14, 241);
+    }
+    
+    .primary-button {
+        color: antiquewhite !important;
+        /*its consider this color over all color*/
+        font-weight: 700;
+        border-radius: 6px;
+        padding: 12px 24px;
+        box-shadow: 0 0 2px var(--secondary-text-color);
+        /*x dir ,y dir ,blurness and color*/
+        background-color: skyblue;
+        transition: 0.2s ease-out;
+    }
+    
+    .primary-button:hover {
+        background-color: var(--accent-color-dark);
+    }
+    
+    .sec-button {
+        border: 0.5px solid var(--secondary-text-color);
+        border-radius: 6px;
+        font-weight: 700;
+        color: skyblue;
+        padding: 12px 24px;
+    }
+    
+    .sec-button:hover {
+        border-color: var(--accent-color);
+        color: #2294ed;
+    }
+    /*top-banner*/
+    
+    .top-banner {
+        background-color: seashell;
+        background-size: 300px;
+    }
+    
+    .banner-text {
+        color: black;
+        padding: 15px 30px;
+        /*top+bottom and left+right*/
+        text-align: center;
+    }
+    /*nav bar*/
+    
+    .main-nav {
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    
+    .container a img {
+        height: 90px;
+        width: 190px;
+    }
+    
+    .nav-links {
+        flex-basis: 730px;
+        /*width is equal to 730px*/
+    }
+    
+    .nav-links ul {
+        justify-content: end;
+        /*it will remain always at the right side*/
+        gap: 40px;
+    }
+    /*header*/
+    
+    header {
+        padding: 50px var(--padding-inline-section) 0;
+        /*uper left-right ko inline and currently bottom no padding*/
+    }
+    
+    .header-section {
+        justify-content: center;
+        gap: 50px;
+        /*gap between header left and header right*/
+    }
+    
+    .header-left {
+        max-width: 40vw;
+        color: black;
+    }
+    
+    .header-left h1 {
+        margin-top: 20px;
+    }
+    
+    .get-started-btn {
+        margin-top: 20px;
+    }
+    
+    .header-right img {
+        width: 300px;
+        height: 300px;
+        border: 2px solid white;
+        border-radius: 500px;
+    }
+    /*--comapny */
+    
+    .company-header {
+        text-align: center;
+        margin-block: 30px;
+        /*one time you can give margin-top and margin-bottom*/
+        color: black;
+    }
+    
+    .logos {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 500px;
+        margin-left: 320px;
+    }
+    
+    .logo {
+        height: 46px;
+    }
+    /*variety section*/
+    
+    .variety-section {
+        padding: 80px var(--padding-inline-section) 0;
+    }
+    
+    .variety-header,
+    .examples-header {
+        text-align: center;
+    }
+    
+    .variety-header h2 {
+        padding-bottom: 20px;
+    }
+    
+    .img1 {
+        height: 110px;
+        width: 150px;
+    }
+    
+    .variety-area {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+        margin-top: 20px;
+    }
+    
+    .flavour-card {
+        flex-direction: column;
+        gap: 15px;
+        max-width: 30%;
+        text-align: center;
+    }
+    /*big-feature-section*/
+    /*while making anything first give margin , padding then gap then flex column or row*/
+    
+    .info-section {
+        padding: 30px var(--padding-inline-section) 0;
+    }
+    
+    .big-info {
+        gap: 30px;
+        padding-top: 60px;
+    }
+    
+    .info-dis {
+        flex-direction: column;
+        align-items: flex-start;
+        /*due to align item it's start from center let's start them from their flex start*/
+    }
+    
+    .info {
+        height: 400px;
+        width: 500px;
+        border: 2px solid white;
+        border-radius: 200px;
+        flex-direction: end;
+    }
+    /*example*/
+    
+    .examples-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .example-card {
+        width: 23%;
+        position: relative;
+        min-height: 300px;
+        background: black;
+        background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.5)), url(./images/cone1.jpg);
+        background-size: cover;
+    }
+    
+    .example-card:hover {
+        box-shadow: 0 0 10px #888;
+    }
+    
+    .card-text {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        color: white;
+    }
+    /*for using same attribute for different images u can use nth child*/
+    
+    .example-card:nth-child(2) {
+        background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.5)), url(./images/img4.jpg);
+        background-size: cover;
+    }
+    
+    .example-card:nth-child(3) {
+        background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.5)), url(./images/img3.jpg);
+        background-size: cover;
+    }
+    
+    .example-card:nth-child(4) {
+        background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.5)), url(./images/pisflav.jpg);
+        background-size: cover;
+    }
+    
+    .example-area {
+        justify-content: space-between;
+        margin-block: 30px;
+    }
+    
+    .examples-header {
+        margin-top: 30px;
+    }
+    /*info box*/
+    
+    .box-sec-cont {
+        flex-direction: column;
+        gap: 30px;
+        color: white;
+    }
+    
+    .box-sec-cont p {
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .box-section {
+        padding: 120px var(--padding-inline-section) 80px;
+        background-color: rgb(233, 147, 200);
+    }
+    /*footer*/
+    
+    .link-column {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+    footer {
+        padding-block: 80px;
+        background-color: #ebf2fa;
+    }
+    
+    .footer-cont {
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    /*sub-footer*/
+    
+    .sub-footer {
+        background-color: #b9cde4;
+        padding: var(--padding-inline-section);
+    }
+    
+    .sub-footer-cont {
+        justify-content: center;
+        gap: 30px;
+    }
+    /**/
+    
+    .ima-card {
+        width: 100%;
+        position: relative;
+        min-height: 400px;
+        background: black;
+        background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.5)), url(./images/im.png);
+        background-size: cover;
+    }
+    
+    .ima-card:hover {
+        box-shadow: 0 0 10px #888;
+    }
+    
+    .ima-card-text {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        color: white;
+        align-items: flex-start;
+    }
