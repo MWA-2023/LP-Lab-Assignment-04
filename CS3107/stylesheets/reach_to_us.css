@@ -1,0 +1,171 @@
+html{
+    font-family: SF Pro;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#main{
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    font-family: "SF Pro";
+}
+
+#logo {
+    float: left;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 5;
+    overflow: hidden;
+    background-color: #00000000;
+}
+    
+li {
+    float: right;
+}
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+li span {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+   
+li a:hover:not(.active) {
+    background-color: #00000000;
+    color: yellow;
+    transition: 0.5s;
+} 
+
+/*   After This   */
+
+#parent_div {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 980px;
+    margin-top: 50px;
+    margin-left: 10vw;
+    border: solid;
+    border-color: white;
+    border-radius: 50px;
+    backdrop-filter: blur(2px);
+}
+
+
+
+#child_div1 {
+    margin: 5px;
+    margin-left: 20px;
+    height: 200;
+    width: 950;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#child_div2 {
+    margin: 5px;
+    margin-left: 20px;
+    height: 180;
+    width: 950;
+    text-align: center;
+    color: white;
+}
+
+#child_div1-1 {
+    margin: 1px;
+    padding: 15px;
+    height: 165px;
+    width: 470px;
+    color: white;
+}
+
+#child_div1-2 {
+    margin: 1px;
+    margin-left: 50px;
+    padding: 15px;
+    height: 165px;
+    width: 470px;
+    color: white;
+}
+
+#title {
+    font-size: 30px;
+    font-family: arial;
+    margin: 10px;
+}
+
+#info {
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 10px;
+    font-family: calibri;
+}
+
+#info_2 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: calibri;
+}
+
+#social_links_1 {
+    margin-left: 10px;
+}
+
+#social_links_1:hover {
+    box-shadow: 0 0px 5px 3px #fbfb29;
+    transition: 0.3s;
+}
+
+#social_links_2 {
+    margin-left: 10px;
+}
+
+#social_links_2:hover {
+    box-shadow: 0 0px 5px 3px #fbfb29;
+    transition: 0.3s;
+}
+
+#social_links_3 {
+    margin-left: 10px;
+}
+
+#social_links_3:hover {
+    box-shadow: 0 0px 5px 3px #fbfb29;
+    transition: 0.3s;
+}
+
+#social_links_4 {
+    margin-left: 10px;
+}
+
+#social_links_4:hover {
+    box-shadow: 0 0px 5px 3px #fbfb29;
+    transition: 0.3s;
+}
+
+
+
+

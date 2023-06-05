@@ -1,0 +1,139 @@
+html{
+    font-family: SF Pro;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#main{
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    font-family: "SF Pro";
+}
+
+#logo {
+    float: left;
+}
+  
+#nav_ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 5;
+    overflow: hidden;
+    background-color: #00000000;
+}
+    
+li {
+    float: right;
+}
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+li span {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+   
+li a:hover:not(.active) {
+    background-color: #00000000;
+    color: yellow;
+    transition: 0.5s;
+}
+
+#parent_div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+#event_list {
+    color: black;
+    background-color: inherit;
+    list-style-type: disc;
+    
+}
+
+#child_div1 {
+    background-color: inherit;
+    width: 450px;
+    height: 470px;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 35px;
+    color: white;
+    border: solid;
+    border-color: rgb(216, 151, 254);
+    backdrop-filter: blur(3px);
+}
+
+#child_div2 {
+    background-color: inherit;
+    width: 400px;
+    height: 100vh;
+}
+
+#child_div2-1 {
+    padding: 5px;
+    background-color: inherit;
+    margin-top: 10px;
+    border-radius: 25px;
+    color: white;
+    border: solid;
+    backdrop-filter: blur(3px);
+    border-color: rgb(216, 151, 254);
+}
+
+#child_div2-2 {
+    padding: 5px;
+    background-color: inherit;
+    margin-top: 10px;
+    border-radius: 15px;
+    color: white;
+    border: solid;
+    backdrop-filter: blur(3px);
+    border-color: rgb(216, 151, 254);
+}
+
+#child_div2-3 {
+    padding: 5px;
+    background-color: inherit;
+    margin-top: 10px;
+    border-radius: 15px;
+    color: white;
+    border: solid;
+    backdrop-filter: blur(3px);
+    border-color: rgb(216, 151, 254);
+}
+
+#e_li {
+    float: none;
+    padding-top: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#sec_h1 {
+    margin: 17px;
+}
+
+h1 {
+    color: yellow;
+    font-family: arial;
+}
