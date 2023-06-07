@@ -1,0 +1,121 @@
+/* Style for the About page */
+
+/* Header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 150px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+    background-color: #a7a7a7;
+  }
+  
+  nav li a:hover {
+    background-color: #555;
+  }
+  
+  nav li.active a {
+    background-color: #a7a7a7;
+  }
+  
+  /* Main */
+  .about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-us h2{
+    text-align: center;
+  }
+  
+  .organizers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .organizer {
+    text-align: center;
+  }
+  
+  .organizer img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .organizer h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .organizer p {
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media a {
+    color: #24252A;
+    margin: 0 10px;
+  }
+  
+  .social-media a:hover {
+    color: #1877F2;
+  }
+  

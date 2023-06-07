@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Register for Event</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <!-- Header with Navigation Bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="images.html">Images</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content with Registration Form -->
+  <main>
+    <div class="register">
+        <h2>Registration Form</h2>
+        <form id="registration-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+          </div>
+          <div class="form-group">
+            <label for="college">College:</label>
+            <input type="text" id="college" name="college" required>
+          </div>
+          <div class="form-group">
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" name="branch" required>
+          </div>
+          <div class="form-group">
+            <label for="year">Year:</label>
+            <select id="year" name="year" required>
+              <option value="">Select Year</option>
+              <option value="1st Year">1st Year</option>
+              <option value="2nd Year">2nd Year</option>
+              <option value="3rd Year">3rd Year</option>
+              <option value="4th Year">4th Year</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>      
+  </main>
+
+  <!-- Footer with Social Media Links -->
+  <footer>
+    <div class="social-media">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2023 College Event. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for Form Validation and Submission -->
+  
