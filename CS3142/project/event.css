@@ -1,0 +1,78 @@
+.navbar {
+  background-color: #252525;
+  color: whitesmoke;
+  overflow: hidden;
+  padding: 1%;
+  font-size: 24px;
+  font-style: italic;
+}
+
+body {
+  background-color: whitesmoke;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: orange;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: greenyellow;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+.footer {
+  background-color: #252525;
+  color: whitesmoke;
+  overflow: hidden;
+  padding: 1%;
+  font-style: italic;
+  text-align: center;
+}
+
+.footer a {
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+a:hover {
+  background-color: whitesmoke;
+  color: #252525;
+}
+
+.fname {
+  text-align: right;
+  padding: 14px 16px;
+}
+
+.gallery {
+  text-align: center;
+  font-size: 21px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.contact {
+  text-align: center;
+  border: 2px dashed;
+  width: 30%;
+  margin-left: 36.5%;
+  padding: 0 0 30px 40px;
+}
