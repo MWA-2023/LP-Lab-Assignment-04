@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+  }
+
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav li {
+    margin-right: 1rem;
+  }
+
+  nav li a {
+    display: block;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+    background-color: #a7a7a7;
+  }
+
+  nav li a:hover {
+    background-color: #555;
+  }
+
+  nav li.active a {
+    background-color: #a7a7a7;
+  }
+    /* Styles for the Images page */
+
+  /* Speakers section */
+
+
+    .register {
+        margin: 50px auto;
+        max-width: 500px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      .register h2 {
+        margin-top: 0;
+      }
+
+      .register .form-group {
+        margin-bottom: 10px;
+      }
+
+      .register label {
+        display: block;
+        font-weight: bold;
+      }
+
+      .register input[type="text"],
+      .register input[type="email"],
+      .register input[type="tel"],
+      .register select {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .register input[type="text"]:focus,
+      .register input[type="email"]:focus,
+      .register input[type="tel"]:focus,
+      .register select:focus {
+        outline: none;
+        border-color: #1abc9c;
+      }
+
+      .register button[type="submit"] {
+        background-color: #1abc9c;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      .register button[type="submit"]:hover {
+        background-color: #16a085;
+      }
+
+
+    /* Footer */
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    footer p {
+      margin-bottom: 10px;
+    }
+
+    .social-media {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-media a {
+      margin: 0 10px;
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .social-media a:hover {
+      color: #bbb;
+    }

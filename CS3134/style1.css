@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 150px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+    background-color: #a7a7a7;
+  }
+  
+  nav li a:hover {
+    background-color: #555;
+  }
+  
+  nav li.active a {
+    background-color: #a7a7a7;
+  }
+    /* Styles for the Images page */
+  
+  /* Speakers section */
+  .speakers {
+      background-color: #f9f9f9;
+      padding: 50px 0;
+    }
+  
+    .speakers h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  
+    .speakers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+  
+    }
+  
+    .speaker sp2{
+      height: 78%;
+    }
+    .speaker {
+      text-align: center;
+    }
+  
+    .speaker img {
+      max-width: 70%;
+      margin-bottom: 20px;
+    }
+  
+    .speaker h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .speaker p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+  
+    /* Footer */
+  
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+  
+    footer p {
+      margin-bottom: 10px;
+      align-content: center;
+    }
+  
+    .social-media {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .social-media a {
+      margin: 0 10px;
+      color: #fff;
+      font-size: 20px;
+    }
+  
+    .social-media a:hover {
+      color: #bbb;
+    }
