@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+#intro {
+  width: 100%;
+  height: 95vh;
+  background-color: thistle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.7rem;
+}
+
+#register {
+  height: 95vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#register form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+#register input,select {
+  text-decoration: none;
+  height: 1.5rem;
+}
+
+#all-events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1em;
+  padding: 2rem;
+}
+
+#events-section {
+  height: 95vh;
+  background-color: ivory;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10em;
+}
+
+#img-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1em;
+  padding: 2rem;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px solid red;
+  padding: 1em;
+  background-color: white;
+}
+
+.gallery-item:hover {
+  transition: all 0.3s;
+  border: 1px solid black;
+  transform: scale(1.1);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px solid red;
+  padding: 1em;
+}
+
+.navbar {
+  background-color: #333333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+

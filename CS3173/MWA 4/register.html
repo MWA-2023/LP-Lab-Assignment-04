@@ -1,0 +1,54 @@
+<head>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<script>
+  function show_register() {
+    const event_name = document.getElementById("events").value;
+    const name = document.getElementById("name").value;
+    const phone_no = document.getElementById("fno").value;
+
+    if (name.length === 0) {
+      alert("Name must exists")
+      return;
+    }
+
+    if (phone_no.length !== 10) {
+      alert("Invalid phone number")
+      return;
+    }
+
+    alert("Registerd for " + event_name + " successfully!")
+  }
+</script>
+
+<body>
+  <div class="navbar">
+    <a href="./index.html">Home</a>
+    <a href="./events.html">Events</a>
+    <a href="./glimpses.html">Glimpses</a>
+    <a href="./register.html">Register</a>
+  </div>
+<div id="register">
+  <form>
+    <h3>Fill this form to register</h3>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" />
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" />
+    <label for="_class">Class</label>
+    <input type="text" id="_class" name="class" />
+    <label for="fno">Contact Number</label>
+    <input type="number" id="fno" name="fno" />
+    <label for="events">Event</label>
+    <select id="events">
+      <!-- <option>-- Choose Event --</option> -->
+      <option>Robowar</option>
+      <option>Hackathon</option>
+      <option>Quiz</option>
+      <option>Projects</option>
+    </select>
+    <input type="submit" value="Submit" onclick="show_register()">
+  </form>
+</div>
+</body>
