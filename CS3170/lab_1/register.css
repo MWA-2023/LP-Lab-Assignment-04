@@ -1,0 +1,131 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    width:100vw;
+    height:100vh;
+    overflow-x:hidden;
+    overflow-y:auto;
+    background-color: rgb(247, 232, 194);
+
+}
+header {
+    background-color: #f5eded;
+    padding: 10px;
+    position:fixed;
+    width:100%;
+    z-index: 1;
+  }
+
+  .logo{
+    display:flex;
+  }
+
+  .logo img {
+    width:80px;
+    margin:auto 2px;
+  }
+
+  .logo h2{
+    margin:10px;
+    padding:10px;
+  }
+  nav{
+    display:flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 2px 90px;
+    padding: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin:50px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size:1.3rem;
+    transition:all;
+    transition-duration: 0.5s;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  nav ul li a:hover,a.active {
+    color: #ede6e6;
+    background-color: tomato;
+    border-radius: 20px;
+    padding:10px;
+  }
+/* form___________________________________________________________________________________________________ */
+ 
+.container {
+    position:relative;
+    max-width: 400px;
+    margin: 150px auto;
+    padding: 30px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .radio-group input[type="radio"],
+  .radio-group label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .success-message {
+    margin-top: 10px;
+    color: #4caf50;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  
