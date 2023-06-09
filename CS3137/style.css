@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, plum, white);
+    height: 84vh;
+    width: 100%;
+
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+ul li {
+    margin-left: 25px;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 45px;
+    height: 45px;
+    position: relative;
+}
+
+button {
+    margin: 5px;
+    padding: 4px;
+    cursor: pointer;
+    background: plum;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 50px;
+}
+
+button-add {
+    opacity: o.6;
+    pointer-events: none;
+}
+
+button-add.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+button:hover {
+    background: white;
+    border-radius: 5px;
+    border-color: plum;
+}
+
+.button-delete {
+    background: #e74c3c;
+    color: white;
+
+}
+
+.button-delete:hover {
+    background: white;
+    color: #e74c3c;
+    border-color: gray;
+}
+
+.inputbox {
+    margin: 20px;
+    display: flex;
+    height: 45px;
+    width: 100%;
+}
+
+input {
+    width: 75%;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background: white;
+    border-color: beige;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+input:hover {
+    border: 1px solid plum;
+}
+
+.todos li span {
+    position: absolute;
+    right: 0px;
+}
+
+.footer button {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.container .todos {
+    max-height: 250px;
+    overflow-y: auto;
+}
