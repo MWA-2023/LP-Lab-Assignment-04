@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sound Board</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1 id="heading">Sound Board</h1>
+  <div id="entire-board sound ">
+  <div id="sound-tiles-row"  class="top">
+    <div id="tile" >
+      <img  class="content" id="chilren_audience.wav" src="src/water ripples.gif" onclick="audioFunction(water_waves)">
+      <p id="sound-name">Water Waves</p>
+    </div>
+    <div id="tile">
+      <image  class="content" id="wind.wav" src="/SoundSite/src/wind.gif" onclick="audioFunction(wind)"></image>
+      <p id="sound-name">Wind</p>
+    </div>
+    <div id="tile">
+      <image class="content" id="birds.wav" src="/SoundSite/src/birds.gif" onclick="audioFunction(birds)"></image>
+      <p id="sound-name">Birds</p>
+    </div>
+  </div>
+  <div id="sound-tiles-row" class="middle">
+    <div id="tile">
+      <image class="content" id="chilren_audience.wav" src="/SoundSite/src/children.gif" onclick="audioFunction(chilren_audience)"></image>
+      <p id="sound-name">Children</p>
+    </div>
+    <div id="tile">
+      <image class="content" id="camp_fire.wav" src="/SoundSite/src/camp_fire.gif" onclick="audioFunction(camp_fire)"></image>
+      <p id="sound-name">Camp Fire</p>
+    </div>
+    <div id="tile">
+      <image class="content" id="city_road.wav" src="/SoundSite/src/city_road.gif" onclick="audioFunction(city_road)"></image>
+      <p id="sound-name">City Hustle</p>
+    </div>
+  </div>
+  <div id="sound-tiles-row" class="bottom">
+    <div id="tile">
+      <image class="content" id="clock_timer.wav" src="/SoundSite/src/clock_timer.gif" onclick="audioFunction(clock_timer)"></image>
+      <p id="sound-name">Clock ticks</p>
+    </div>
+    <div id="tile">
+      <image class="content" id="thunder.wav" src="/SoundSite/src/thunder.gif" onclick="audioFunction(thunder)"></image>
+      <p id="sound-name">Thunder</p>
+    </div>
+    <div id="tile">
+      <image class="content" id="triggering" src="/SoundSite/src/siren.gif" onclick="audioFunction(triggering); alertUser();"></image>
+      <p id="sound-name">Siren [triggering]</p>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
