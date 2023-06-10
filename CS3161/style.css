@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* General Styles */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* Banner Styles */
+
+#banner {
+  background-image: url("images/cbanner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-text {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.banner-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-text p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-text .btn {
+  padding: 12px 24px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.banner-text .btn:hover {
+  background-color: #ddd;
+}
+
+/* About Styles */
+
+#about {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+
+#about .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #777;
+}
+
+#about .highlight {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Schedule Styles */
+
+#schedule h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#schedule table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#schedule th,
+#schedule td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#schedule th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Speakers Styles */
+
+#speakers .speaker {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#speakers img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#speakers h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#speakers p {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Contact Styles */
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#contact textarea {
+  resize: vertical;
+}
+
+#contact button {
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #555;
+}
+
+
+/* Login section styles */
+#login {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+
+#login .container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+#login h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login form input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#login form button {
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#login form button:hover {
+  background-color: #555;
+}
+
