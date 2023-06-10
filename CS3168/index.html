@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Web Application</title>
+  <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center;"> Tech-IO 2022 </h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#registration">Registration</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2 style="text-align: center;">Welcome to the Event !</h2>
+    <p>Gdsc Rscoe has organized Tech Io 2022 in which you will get Guidance about how to Prepare for Interview</p>
+  </section>
+  <hr>
+  <section id="schedule">
+    <h2 style="text-align: center;">Event Schedule</h2>
+    <table>
+      <tr>
+        <th>Time</th>
+        <th>Activity</th>
+      </tr>
+      <!-- Schedule rows will be dynamically added using JavaScript -->
+    </table>
+  </section>
+   <hr>
+  <section id="speakers">
+    <h2 style="text-align: center;">Speakers</h2>
+    <div class="speaker">
+      <!-- Speaker details will be dynamically added using JavaScript -->
+    </div>
+  </section>
+  <hr>
+  <div class="regf">
+    <h2>Registration Form</h2>
+  </div>
+  
+  <class id="registration"> 
+    <form action="action_page.php">
+        <div class="container">
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+      </form>
+
+    </class>
+
+  <section id="contact">
+    <h2>Contact Information</h2>
+    <p>Contact to : Rushikesh Palaskar </p>
+    <p>Mob No : +917620402634</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 JSPM RSCOE.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
